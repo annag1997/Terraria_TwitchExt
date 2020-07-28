@@ -1,0 +1,1 @@
+A C# side project I've been making for a friend. Its purpose is to track certain things regarding NPCs in Terraria. Not done yet. Note: PNG files in Items folder do not belong to me. They are copied from the Terraria website as a test and I've changed their names according to tMod's naming rules. 
