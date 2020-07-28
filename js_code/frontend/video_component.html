@@ -1,0 +1,35 @@
+<!--using video_component.html file from extenstion-getting-started as a template-->
+<!--using config.html from extensions-101 as a template (https://github.com/sonia145/Extensions-101)-->
+<!--options and ui built. submit answers to broadcaster-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Terraria Boss Tracker</title>
+</head>
+<body>
+    <!--taken from video_component.html-->
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+    taken from extensions-101 (https://github.com/sonia145/Extensions-101)-->
+
+    <!--done-->
+    <script src="video_component.js" type="text/javascript"></script>
+    <h2>Terraria Boss Tracker</h2>
+    <p>Please select which aspect you'd like to track:</p>
+    <div id = "track">
+        <input type="checkbox" id="numkilled" name="items[]" value="numkilled">
+        <label for="numkilled"> Number of monsters killed</label><br>
+        <input type="checkbox" id="numnotkilled" name="items[]" value="numnotkilled">
+        <label for="numnotkilled"> Number not killed</label><br>
+        <input type="checkbox" id="hpmonster" name="items[]" value="hpmonster">
+        <label for="hpmonster"> HP of each monster</label><br> 
+    </div>
+    <div class="result" style="float: left; position: relative; left: 50%">
+        
+    </div>
+</body>
+</html>
