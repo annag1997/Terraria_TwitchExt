@@ -1,0 +1,4 @@
+Images used in Items folder:
+
+TestSpear - Mushroom Spear (Link from: https://terraria.gamepedia.com/Mushroom_Spear)
+TestSword - Blood Butcherer (Link from: https://terraria.gamepedia.com/Blood_Butcherer)
